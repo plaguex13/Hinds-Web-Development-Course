@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Tutorial Case
+   
+   Visual Effects Style Sheet for Photo Page at Tree and Book
+   Author:
+   Date:   
+   
+   Filename: tb_visual2.css
+
+*/
+article{
+    perspective:600px;
+}
+
+/* Transformation Styles */
+figure#figure1 {
+    transform: rotateX(30deg) translateZ(50px);
+    box-shadow: rgb(101,101,101) 10px 10px 25px;
+    filter: sepia(35%)
+}
+figure#figure2{
+     transform: rotate(-40deg) scale(0.8,0.8) translate(20px,-100px)
+     rotateY(60deg) rotateZ(30deg);
+     box-shadow: rgb(101,101,101) 10px 10px 25px;
+     filter: grayscale(1);
+
+}
+figure#figure3{
+     transform: rotate(40deg) scale(0.8,0.8) translate(20px,-100px)
+     rotateY(-60deg) rotateZ(-30deg);
+     box-shadow: rgb(101,101,101) 10px -10px 25px;
+          filter: grayscale(1);
+}
+/* Filter Styles */
+
+
+
+
+
+
+
+
+
+
